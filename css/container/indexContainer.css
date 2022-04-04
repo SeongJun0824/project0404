@@ -55,12 +55,17 @@
 	height: 30px;
 	/* border: 1px solid; */
 	box-sizing: border-box;
-	border-radius: 50%;
-	background-color: #f00;
+	/* border-radius: 50%; */
+	/* background-color: #f00; */
 	cursor: pointer;
 }
+.container .inner-container .index .section .section.sec1 .sec-con .center-btn span img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
 .container .inner-container .index .section .section.sec1 .sec-con .center-btn span:hover{
-	background-color: #f005;
+	opacity: 0.5;
 }
 .container .inner-container .index .section .section.sec1 .sec-con .bcon{
 	width: 100%;
@@ -98,6 +103,9 @@
 	opacity: 0.5;
 	box-shadow: 0 0 2px #000;
 }
+.gallery-ani{
+	transition: all 0.5s;
+}
 .container .inner-container .index .section .section.sec2{
 	width: 100%;
 	display: flex;
@@ -122,7 +130,4 @@
 	width: 100%;
 	height: auto;
 	display: block;
-}
-.gallery-ani{
-	transition: all 0.5s;
 }
