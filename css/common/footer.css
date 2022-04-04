@@ -1,0 +1,56 @@
+/*footer*/
+.footer{
+    background-color: rgb(73, 67, 67);
+}
+.footer .inner-footer{
+    display: flex;
+    justify-content: center;
+}
+.footer .inner-footer .fcon{
+    flex: 0 1 1200px;
+    padding: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.footer .inner-footer .fcon .left-fcon{
+    flex: 1;
+}
+.footer .inner-footer .fcon .left-fcon h3.title{
+    font-size: 30px;
+    line-height: 50px;
+    padding: 10px 0;
+}
+.footer .inner-footer .fcon .left-fcon p{
+    line-height: 50px;
+    font-size: 24px;
+}
+.footer .inner-footer .fcon .left-fcon p a{
+    font-weight: bold;
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+}
+.footer .inner-footer .fcon .left-fcon p a:hover{
+    color: #fff;
+}
+.footer .inner-footer .fcon .right-fcon{
+    flex: 1;
+}
+.footer .inner-footer .fcon .right-fcon h3.title{
+    font-size: 30px;
+    line-height: 50px;
+    padding: 10px 0;
+}
+.footer .inner-footer .fcon .right-fcon a{
+    background-color: #222;
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+}
+.footer .inner-footer .fcon .right-fcon a:hover{
+    background-color: #000;
+    color: #fff;
+    text-decoration: underline;
+}
